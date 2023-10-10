@@ -63,7 +63,7 @@ export default function MyForm(props) {
             {...getOverrideProps(overrides, "SectionalElement0")}>
         </Heading>
         <TextField 
-        style={{background:'red'}}
+        // style={{background:'red'}}
             label="Username" 
             isRequired={true} 
             placeholder="add username here..." 
