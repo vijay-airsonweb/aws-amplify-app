@@ -36,7 +36,7 @@ export default function MyForm(props) {
         return validationResponse;
     };
     return (
-        <Grid as="form" rowGap="15px" columnGap="15px" padding="20px" onSubmit={async (event) => {
+        <Grid as="form" rowGap="15px" columnGap="15px" padding="40px" onSubmit={async (event) => {
             event.preventDefault();
             const modelFields = {
                 Field0,
