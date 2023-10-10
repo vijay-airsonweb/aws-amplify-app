@@ -1,17 +1,12 @@
 .App {
-  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
-.App-header {
-  border: 1px solid gray;
-  border-radius: 15px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-innercontent {
+  border: 0.5px solid  #403B3A;
+  border-radius: 5px;
 }
 

@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-    <div className="App-header">
+    <div className="App-innercontent">
       <LoginPage/>
     </div>
     </div>
